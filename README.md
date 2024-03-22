@@ -2,5 +2,6 @@
 
 a software engineer working for Medialesson
 
-Contributor to https://github.com/eclipse/chariott
-Contributor to https://microsoft.github.io/rust-for-dotnet-devs/latest/
+Contributor to
+* [Eclispe Chariott](https://github.com/eclipse/chariott)
+* [Rust for dotnet devs](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
