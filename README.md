@@ -1,6 +1,6 @@
 ### Hi there, I'm Dariusz
 
-a software engineer working for Medialesson
+a principal software engineer working for Medialesson. Die hard metalhead and club supporter.
 
 Contributor to
 * [Eclispe Chariott](https://github.com/eclipse/chariott)
