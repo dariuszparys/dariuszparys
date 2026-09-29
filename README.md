@@ -32,8 +32,7 @@
 
 ### `04` &nbsp;Latest writing
 
-<!-- BLOG-POST-LIST:START -->
-- [Running a 2.5 hour job from a 60 minute pipeline: Azure Container Apps Jobs, kickoff and collect](https://www.dariuszparys.com/azure-container-apps-jobs-kickoff-and-collect) <sub>· Sep 1, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Running a 2.5 hour job from a 60 minute pipeline: Azure Container Apps Jobs, kickoff and collect](https://www.dariuszparys.com/azure-container-apps-jobs-kickoff-and-collect) <sub>· Sep 1, 2026</sub>
 - [Your ADRs Are Costing You Tokens](https://www.dariuszparys.com/your-adrs-are-costing-you-tokens) <sub>· Mar 2, 2026</sub>
 - [Claude Code Multi-Agent tmux Setup](https://www.dariuszparys.com/claude-code-multi-agent-tmux-setup) <sub>· Feb 7, 2026</sub>
 - [Building an Autonomous Coding Agent with the GitHub Copilot SDK](https://www.dariuszparys.com/building-an-autonomous-coding-agent-with-the-github-copilot-sdk) <sub>· Jan 27, 2026</sub>
