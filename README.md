@@ -37,7 +37,8 @@
 - [Planning and Running Coding Agents with Herdr](https://www.dariuszparys.com/planning-and-running-coding-agents-with-herdr) <sub>· Nov 2, 2026</sub>
 - [Placebound: Archon in the Browser](https://www.dariuszparys.com/placebound-archon-in-the-browser) <sub>· Oct 28, 2026</sub>
 - [Running a 2.5 hour job from a 60 minute pipeline: Azure Container Apps Jobs, kickoff and collect](https://www.dariuszparys.com/azure-container-apps-jobs-kickoff-and-collect) <sub>· Sep 1, 2026</sub>
-- [Your ADRs Are Costing You Tokens](https://www.dariuszparys.com/your-adrs-are-costing-you-tokens) <sub>· Mar 2, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [Your ADRs Are Costing You Tokens](https://www.dariuszparys.com/your-adrs-are-costing-you-tokens) <sub>· Mar 2, 2026</sub>
+<!-- BLOG-POST-LIST:END -->
 
 <sub>→ more at <a href="https://www.dariuszparys.com">dariuszparys.com</a></sub>
 
