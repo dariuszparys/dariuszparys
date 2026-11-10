@@ -20,4 +20,19 @@ jobs:
           template: "- [$title]($url) <sub>· $date</sub>$newline"
           tag_post_pre_newline: true
           date_format: "mmm d, yyyy"
-          commit_message: "chore: refresh latest blog posts"
+          skip_commit: true
+      # The action leaves an empty line before the END marker because the
+      # template ends each post with a line break; remove it before committing.
+      - name: Remove empty line before end marker
+        run: perl -0pi -e 's/\n\n(<!-- BLOG-POST-LIST:END -->)/\n$1/' README.md
+      - name: Commit and push
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "blog-post-bot"
+          git config user.email "blog-post-bot@example.com"
+          git add README.md
+          git commit -m "chore: refresh latest blog posts"
+          git push
