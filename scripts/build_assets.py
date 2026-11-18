@@ -477,26 +477,26 @@ PROJECTS = [
 
 
 def card(p: Project, t: Theme, mono: Face, mono_bold: Face) -> str:
-    W, H = 640, 214
+    W, H = 640, 256
     atlas = GlyphAtlas("c")
     color = LANG_COLORS[p.lang]
     parts: list[str] = []
 
     owner = p.repo.split("/")[0] + " /"
-    parts.append(atlas.text(mono, "r", owner, 17, 36, 52, t.muted))
+    parts.append(atlas.text(mono, "r", owner, 18, 36, 52, t.muted))
     parts.append(atlas.text(mono_bold, "b", p.slug, 30, 36, 92, t.text))
     if p.private:
         # mirrors GitHub's "Private" label; private repos get no link arrow
         label_x = 36 + mono_bold.measure(p.slug, 30) + 16
-        label_w = mono.measure("Private", 14) + 22
-        parts.append(f'<rect x="{num(label_x)}" y="69" width="{num(label_w)}" height="28" rx="14" fill="none" stroke="{t.border}" stroke-width="1.5"/>')
-        parts.append(atlas.text(mono, "r", "Private", 14, label_x + 11, 88, t.muted))
+        label_w = mono.measure("Private", 17) + 26
+        parts.append(f'<rect x="{num(label_x)}" y="66" width="{num(label_w)}" height="32" rx="16" fill="none" stroke="{t.border}" stroke-width="1.5"/>')
+        parts.append(atlas.text(mono, "r", "Private", 17, label_x + 13, 88, t.muted))
 
-    lines = textwrap.wrap(p.blurb, 50)
-    if len(lines) > 2:
-        raise ValueError(f"blurb for {p.slug} needs more than two lines: {lines}")
+    lines = textwrap.wrap(p.blurb, 42)
+    if len(lines) > 3:
+        raise ValueError(f"blurb for {p.slug} needs more than three lines: {lines}")
     for i, line in enumerate(lines):
-        parts.append(atlas.text(mono, "r", line, 18, 36, 132 + i * 26, t.muted))
+        parts.append(atlas.text(mono, "r", line, 22, 36, 136 + i * 30, t.muted))
 
     if not p.private:
         parts.append(atlas.text(mono_bold, "b", "↗", 24, W - 54, 54, t.faint))
@@ -504,7 +504,7 @@ def card(p: Project, t: Theme, mono: Face, mono_bold: Face) -> str:
     # language
     lang_y = H - 22
     parts.append(f'<circle cx="43" cy="{lang_y - 6}" r="7" fill="{color}"/>')
-    parts.append(atlas.text(mono, "r", p.lang, 16, 58, lang_y, t.muted))
+    parts.append(atlas.text(mono, "r", p.lang, 18, 58, lang_y, t.muted))
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{p.repo}: {p.blurb}">
 <defs>
