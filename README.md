@@ -24,11 +24,11 @@
 ### `02` &nbsp;Latest writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Brevo Inline Images: cid Works with the Attachment File Name](https://www.dariuszparys.com/brevo-inline-images-cid) <sub>· Nov 19, 2026</sub>
 - [Three Gates Between a PDF and Your Storage Account](https://www.dariuszparys.com/three-gates-between-a-pdf-and-your-storage-account) <sub>· Nov 11, 2026</sub>
 - [Writing for Agents](https://www.dariuszparys.com/writing-for-agents) <sub>· Nov 6, 2026</sub>
 - [Planning and Running Coding Agents with Herdr](https://www.dariuszparys.com/planning-and-running-coding-agents-with-herdr) <sub>· Nov 2, 2026</sub>
 - [Placebound: Archon in the Browser](https://www.dariuszparys.com/placebound-archon-in-the-browser) <sub>· Oct 28, 2026</sub>
-- [Running a 2.5 hour job from a 60 minute pipeline: Azure Container Apps Jobs, kickoff and collect](https://www.dariuszparys.com/azure-container-apps-jobs-kickoff-and-collect) <sub>· Sep 1, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 <sub>→ more at <a href="https://www.dariuszparys.com">dariuszparys.com</a></sub>
