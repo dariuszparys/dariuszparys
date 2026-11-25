@@ -9,17 +9,19 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg">
-  <img alt="Terminal. Now: AI agents and developer tooling, platform engineering on Azure. Stack: Rust, C#, TypeScript, Python, Go, Terraform, Bicep. Contributions: eclipse-chariott/chariott, microsoft/rust-for-dotnet-devs." src="assets/terminal-dark.svg" width="100%">
+  <img alt="Terminal. Now: AI agents and developer tooling, platform engineering on Azure. Stack: Rust, C#, TypeScript, Python, Bicep. Contributions: eclipse-chariott/chariott, microsoft/rust-for-dotnet-devs." src="assets/terminal-dark.svg" width="100%">
 </picture>
 
-### `01` &nbsp;Currently building
+### `01` &nbsp;Projects
 
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/taube-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/taube-light.svg"><img alt="taube (private): self-hosted email control plane with a .NET API, CLI and delivery workers, and SDKs in seven languages" src="assets/projects/taube-dark.svg" width="410"></picture>
+<a href="https://dariuszparys.github.io/ckad-drills/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/ckad-drills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/ckad-drills-light.svg"><img alt="ckad-drills: 81 hands-on CKAD drills, a two-hour mock exam and a curriculum, tested on Kubernetes v1.37" src="assets/projects/ckad-drills-dark.svg" width="410"></picture></a>
+<a href="https://github.com/dariuszparys/gpsify"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/gpsify-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/gpsify-light.svg"><img alt="gpsify: geolocates untagged photos from pixels and writes GPS only after a human accepts the pin" src="assets/projects/gpsify-dark.svg" width="410"></picture></a>
 <a href="https://github.com/dariuszparys/claude-code-toolkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/claude-code-toolkit-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/claude-code-toolkit-light.svg"><img alt="claude-code-toolkit: Claude Code plugin marketplace with commands, skills and hooks for work items, ADRs and Ralph loops" src="assets/projects/claude-code-toolkit-dark.svg" width="410"></picture></a>
 <a href="https://github.com/dariuszparys/azdo-linter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/azdo-linter-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/azdo-linter-light.svg"><img alt="azdo-linter: validates Azure DevOps pipelines against the variable groups that actually exist" src="assets/projects/azdo-linter-dark.svg" width="410"></picture></a>
-<a href="https://github.com/dariuszparys/gpsify"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/gpsify-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/gpsify-light.svg"><img alt="gpsify: geolocates untagged photos from pixels and writes GPS only after a human accepts the pin" src="assets/projects/gpsify-dark.svg" width="410"></picture></a>
 </p>
+
+<sub>Small tools: <a href="https://github.com/dariuszparys/claude-meeting-notes">claude-meeting-notes</a> (local meeting transcripts and summaries in Claude Code) · <a href="https://github.com/dariuszparys/inkdrop-scratchpad">inkdrop-scratchpad</a> (a throwaway Inkdrop note that cleans itself up)</sub>
 
 ### `02` &nbsp;Latest writing
 
@@ -33,10 +35,10 @@
 
 <sub>→ more at <a href="https://www.dariuszparys.com">dariuszparys.com</a></sub>
 
-### `03` &nbsp;Contributor to
+### `03` &nbsp;Contributed to
 
-- [**Eclipse Chariott**](https://github.com/eclipse-chariott/chariott): a gRPC service that gives in-vehicle applications one common interface to talk to each other
-- [**Rust for .NET developers**](https://microsoft.github.io/rust-for-dotnet-devs/latest/): learning Rust through the lens of C# and .NET
+- [**Eclipse Chariott**](https://github.com/eclipse-chariott/chariott) <sub>· 2022–2023</sub>: a gRPC service that gives in-vehicle applications one common interface to talk to each other
+- [**Rust for .NET developers**](https://microsoft.github.io/rust-for-dotnet-devs/latest/) <sub>· 2022</sub>: learning Rust through the lens of C# and .NET
 
 <br>
 

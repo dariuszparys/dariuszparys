@@ -192,6 +192,7 @@ LANG_COLORS = {
     "Python": "#3572A5",
     "TypeScript": "#3178c6",
     "Shell": "#89e051",
+    "JavaScript": "#f1e05a",
 }
 
 REDUCED_MOTION = "@media (prefers-reduced-motion: reduce){*{animation:none!important}}"
@@ -355,7 +356,7 @@ def terminal(t: Theme, mono: Face, mono_bold: Face) -> str:
                          ("platform engineering on Azure", t.cyan)]]),
         ("ls ~/stack", [[("rust", LANG_COLORS["Rust"] if t.name == "dark" else "#a0522d"), ("   csharp", t.green),
                          ("   typescript", "#58a6ff" if t.name == "dark" else "#0969da"), ("   python", t.yellow),
-                         ("   go", t.cyan), ("   terraform", t.violet), ("   bicep", t.muted)]]),
+                         ("   bicep", t.cyan)]]),
         ("ls ~/contributions", [[("eclipse-chariott/chariott", t.text), ("   microsoft/rust-for-dotnet-devs", t.text)]]),
     ]
 
@@ -427,7 +428,7 @@ def terminal(t: Theme, mono: Face, mono_bold: Face) -> str:
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="title desc">
 <title id="title">Terminal</title>
-<desc id="desc">Terminal session. Now: AI agents and developer tooling, platform engineering on Azure. Stack: Rust, C#, TypeScript, Python, Go, Terraform, Bicep. Contributions: eclipse-chariott/chariott, microsoft/rust-for-dotnet-devs.</desc>
+<desc id="desc">Terminal session. Now: AI agents and developer tooling, platform engineering on Azure. Stack: Rust, C#, TypeScript, Python, Bicep. Contributions: eclipse-chariott/chariott, microsoft/rust-for-dotnet-devs.</desc>
 <style>{style}</style>
 <defs>
 {atlas.svg_defs()}
@@ -464,15 +465,14 @@ class Project:
 
 # Pinned repos already appear below the README, so only list work that isn't pinned.
 PROJECTS = [
-    Project("taube", "dariuszparys/taube", "C#",
-            "Self-hosted email control plane: .NET API, CLI and delivery workers, with SDKs in seven languages.",
-            private=True),
+    Project("ckad-drills", "dariuszparys/ckad-drills", "JavaScript",
+            "81 hands-on CKAD drills, a two-hour mock exam and a curriculum, tested on Kubernetes v1.37."),
+    Project("gpsify", "dariuszparys/gpsify", "Rust",
+            "Geolocates untagged photos from pixels; writes GPS only after a human accepts the pin."),
     Project("claude-code-toolkit", "dariuszparys/claude-code-toolkit", "Shell",
             "Claude Code plugin marketplace: commands, skills and hooks for work items, ADRs and Ralph loops."),
     Project("azdo-linter", "dariuszparys/azdo-linter", "Rust",
             "Validates Azure DevOps pipelines against the variable groups that actually exist."),
-    Project("gpsify", "dariuszparys/gpsify", "Python",
-            "Geolocates untagged photos from pixels; writes GPS only after a human accepts the pin."),
 ]
 
 
