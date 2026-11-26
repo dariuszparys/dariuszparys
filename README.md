@@ -26,11 +26,11 @@
 ### `02` &nbsp;Latest writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Don&#39;t Ask the Agent Whether the Skill Helped](https://www.dariuszparys.com/dont-ask-the-agent-whether-the-skill-helped) <sub>· Nov 25, 2026</sub>
 - [Recovering Over 900 Deleted Blog Posts from the Wayback Machine](https://www.dariuszparys.com/recovering-my-deleted-blog-from-the-wayback-machine) <sub>· Nov 19, 2026</sub>
 - [Brevo Inline Images: cid Works with the Attachment File Name](https://www.dariuszparys.com/brevo-inline-images-cid) <sub>· Nov 19, 2026</sub>
 - [Three Gates Between a PDF and Your Storage Account](https://www.dariuszparys.com/three-gates-between-a-pdf-and-your-storage-account) <sub>· Nov 11, 2026</sub>
 - [Writing for Agents](https://www.dariuszparys.com/writing-for-agents) <sub>· Nov 6, 2026</sub>
-- [Planning and Running Coding Agents with Herdr](https://www.dariuszparys.com/planning-and-running-coding-agents-with-herdr) <sub>· Nov 2, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 <sub>→ more at <a href="https://www.dariuszparys.com">dariuszparys.com</a></sub>
